@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>Email: serene@gmail.com</p>
+    <p>Address: 854 Innovation Lane, Atlanta, GA</p>
+    <p>Phone:  245-455-6725</p>
+    <hr>
+    <br>
+    <form action="mailto:felserene@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label><!--This is the label for fields.Every form has a label and input.-->
+      <input type="text" name="yourName" value=""><!--You need input to store information.The input will be text.-->
+      <br>
+      <br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><!--The passowrd input is used to mask inputs to prevent people from seeing what is typed in a field.-->
+    <!--Check out MDN Webdocs for some examples of other input types you could use.-->
+      <br><br><label>Your Message:</label><br><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><!--Changing the inputs such as email will provide basic validation for email format. Text area is a field to write a message; rows is how tall the text area is, and cols is how wide it is.-->
+      <br><br><input type="submit" name=""><!--To create submit buttom, use inpute, change input type to "submit" and delete the value part.-->
+    </form><!--Use the form attribute to create a for. The form won't have functionality until you add javascript code-->
+  </body>
+</html>
